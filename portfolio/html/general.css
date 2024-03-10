@@ -1,0 +1,67 @@
+.container-header{
+    width: 1400px;
+    margin: 0% auto;
+}
+.container{
+    width: 1400px;
+    margin: 0% auto;
+}
+.clearfix{
+    clear: both;
+}
+.text-upperform{
+    text-transform: uppercase;
+}
+.button{
+    border: none;
+    background: linear-gradient(to right, #1345e6,#ed239f,#1345e6);
+    color: #ffffff;
+    font-weight: 500px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 14px;
+    background-size: 200% auto;
+}
+.button:hover{
+    background-position: right center;
+}
+
+
+/*  header */
+.main-header{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+   
+}
+.main-header-logo{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    }
+    .main-navigation-lis{
+    display: inline-block;
+    padding: 5px;
+    }
+    .main-navigation-li{
+        display: inline-block;
+        padding: 5px;
+    }
+    .main-navigation-li a{
+        text-decoration: none;
+        color: brown;
+        text-transform: uppercase;
+    }
+    .main-navigation-lis a:hover{
+        color: coral;}
+        .main-navigation-lis a:active{
+            color:white;
+        }
+    
+    /*header xxx*/
